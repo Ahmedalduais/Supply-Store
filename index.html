@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الصفحه الرئيسيه</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/bag-shopping-solid.svg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/pages/index.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+  <body>
+    <div class="top-img">
+      <header id="headerElement" class="flex">
+        <div class="logo">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span style="font-weight: bold">الدبعي</span>
+          <p style="letter-spacing: 0.5px">للتسوق</p>
+        </div>
+
+        <div class="links">
+          <a style="position: relative" class="cart" href="./pages/cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+            السله
+            <span class="products-number">2</span>
+          </a>
+          <a class="sign-in" href="./pages/signin.html">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            تسجيل دخول</a
+          >
+          <a class="register" href="./pages/register.html">
+            <i class="fa-solid fa-user-plus"></i>
+            انشاء حساب</a
+          >
+        </div>
+      </header>
+
+      <section class="content">
+        <p class="lifestyle">مجموعه نمط الحياه</p>
+        <p class="men">للرجال</p>
+        <p class="sale"><span> %30     </span>خصومات تصل الى</p>
+        <p class="free-shipping">احل على شحن مجاني للطلبات التي تتجاوز 10000ريال</p>
+        <button onclick="scrolltoproducts()">ابداء التسوق الان</button>
+      </section>
+    </div>
+
+    <main class="">
+      <h1 class="recommended">
+        <i class="fa-solid fa-check"></i>
+        موصى به لك
+      </h1>
+
+      <section id="products" class="products flex">
+        <article class="card">
+          <a href="/pages/product-details.html">
+            <img width="266" src="./images/1.png" alt="" srcset="" />
+          </a>
+
+          <div style="width: 266px" class="content">
+            <h1 class="title">شورت رياضي</h1>
+            <p class="description">
+             شورت رياضي عالي الجوده مثالي للتمارين والاستخدام اليومي
+            </p>
+
+            <div
+              class="flex"
+              style="justify-content: space-between; padding-bottom: 0.7rem"
+            >
+              <div class="price">4000ريال</div>
+
+              <button class="add-to-cart flex">
+                <i class="fa-solid fa-cart-plus"></i>
+                اضف الى السله
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="/pages/product-details.html">
+            <img width="266" src="./images/2.webp" alt="" srcset="" />
+          </a>
+
+          <div style="width: 266px" class="content">
+            <h1 class="title">حقيبه سفر</h1>
+            <p class="description">
+              حقيبه سفر متينه بتصميم انيق ومناسب للسفر او التنقل اليومي
+            </p>
+
+            <div
+              class="flex"
+              style="justify-content: space-between; padding-bottom: 0.7rem"
+            >
+              <div class="price">6000ريال</div>
+
+              <button class="add-to-cart flex">
+                <i class="fa-solid fa-cart-plus"></i>
+                اضف الى السله
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="/pages/product-details.html">
+            <img width="266" src="./images/3.webp" alt="" srcset="" />
+          </a>
+
+          <div style="width: 266px" class="content">
+            <h1 class="title">حقيبه ظهر رياضيه </h1>
+            <p class="description">
+             حقيبه ظهر رياضيه خفيفه ومريحه مناسبه للانشطه اليوميه 
+            </p>
+
+            <div
+              class="flex"
+              style="justify-content: space-between; padding-bottom: 0.7rem"
+            >
+              <div class="price">6000ريال</div>
+
+              <button class="add-to-cart flex">
+                <i class="fa-solid fa-cart-plus"></i>
+                اضف الى السله
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="/pages/product-details.html">
+            <img width="266" src="./images/4.webp" alt="" srcset="" />
+          </a>
+
+          <div style="width: 266px" class="content">
+            <h1 class="title">حذاء رياضي</h1>
+            <p class="description">
+             حذاء رياضي مريح بتصميم عصري مناسب للتمارين الرياضيه والمشي
+            </p>
+
+            <div
+              class="flex"
+              style="justify-content: space-between; padding-bottom: 0.7rem"
+            >
+              <div class="price">7000ريال</div>
+
+              <button class="add-to-cart flex">
+                <i class="fa-solid fa-cart-plus"></i>
+                اضف السله 
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="/pages/product-details.html">
+            <img width="266" src="./images/5.webp" alt="" srcset="" />
+          </a>
+
+          <div style="width: 266px" class="content">
+            <h1 class="title">قبعه رياضيه </h1>
+            <p class="description">
+             قبعه رياضيه مناسبه للتمارين والانشطه الخارجيه تتميز بخفه الوزن والتهويه الممتازه
+            </p>
+
+            <div
+              class="flex"
+              style="justify-content: space-between; padding-bottom: 0.7rem"
+            >
+              <div class="price">3000ريال</div>
+
+              <button class="add-to-cart flex">
+                <i class="fa-solid fa-cart-plus"></i>
+                اضف الى السله
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="/pages/product-details.html">
+            <img width="266" src="./images/6.webp" alt="" srcset="" />
+          </a>
+
+          <div style="width: 266px" class="content">
+            <h1 class="title">ساعه ذكيه </h1>
+            <p class="description">
+             ساعه ذكيه بتصميم عصري مزوده بمميزات تتبع اللياقه البدنيه واشعارات الهاتف الذكي
+            </p>
+
+            <div
+              class="flex"
+              style="justify-content: space-between; padding-bottom: 0.7rem"
+            >
+              <div class="price">10000ريال</div>
+
+              <button class="add-to-cart flex">
+                <i class="fa-solid fa-cart-plus"></i>
+               اضف الى السله 
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="/pages/product-details.html">
+            <img width="266" src="./images/7.webp" alt="" srcset="" />
+          </a>
+
+          <div style="width: 266px" class="content">
+            <h1 class="title">نظارة شمسيه</h1>
+            <p class="description">
+             نظارة شمسيه بتصميم انيق توفر حمايه فائقه من اشعه الشمس الضاره  للانشطه الخارجيه
+            </p>
+
+            <div
+              class="flex"
+              style="justify-content: space-between; padding-bottom: 0.7rem"
+            >
+              <div class="price">8000ريال</div>
+
+              <button class="add-to-cart flex">
+                <i class="fa-solid fa-cart-plus"></i>
+                اضف الى السله 
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <a href="/pages/product-details.html">
+            <img width="266" src="./images/8.png" alt="" srcset="" />
+          </a>
+
+          <div style="width: 266px" class="content">
+            <h1 class="title">تيشرت رياضي </h1>
+            <p class="description">
+             تيشرت رياضي مريح بتصميم عصري مثالي للتمارين الرياضيه وجلسات اللياقه البدنيه
+            </p>
+
+            <div
+              class="flex"
+              style="justify-content: space-between; padding-bottom: 0.7rem"
+            >
+              <div class="price">7000ريال</div>
+
+              <button class="add-to-cart flex">
+                <i class="fa-solid fa-cart-plus"></i>
+                اضف الى السله
+              </button>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      Designed and developed by
+      <span> Amro khaled </span>
+      © 2024.
+    </footer>
+
+<script src="./js/main.js"></script>
+
+<script>function scrolltoproducts(){
+  const productssection=document.querySelector('#products');
+  productssection.scrollIntoView({behavior:'smooth'});
+}</script>
+  </body>
+</html>
